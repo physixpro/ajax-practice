@@ -1,0 +1,29 @@
+const express = require ('express');
+// const mongoose = require('mongoose');
+// const cors = require('cors');
+// const app = express();
+// app.use(cors());
+
+// // Connect to database
+
+// mongoose.connect('mongodb+srv://data:1234@cluster0.qvhok.mongodb.net/olympians?retryWrites=true&w=majority',{ useNewUrlParser: true ,  useUnifiedTopology: true })
+// const db = mongoose.connection
+
+// //check for errors
+// db.on('error', console.error.bind(console,'connection error'))
+// //check that everything is working
+// db.once('open',function callback () {
+//     console.log('database is up and running')
+// });
+
+// //route handler
+
+// app.get('/', async(req, res) => {
+//     const olympians = await db.collection('athletes').find({}).toArray();
+//     res.json(olympians)
+// });
+
+// //port 
+
+// const port = process.env.PORT || 3001
+// app.listen(port, () => console.log(`Listening on port ${port}...`))
